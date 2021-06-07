@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+.welcomeUserTitle{
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 80px;
+
+}
+
+
+.userNameZone{
+    float: left;
+    /*left: 400px;*/
+}
+#userZoneDashboard{
+    margin-left: 65%;
+}
+#userZoneDashboard img:hover{
+    opacity: 0.8;
+}
+
+#userZoneDashboard img{
+    display: inline-block;
+    margin-left: 7px;
+    /*padding-bottom: 50px;*/
+    top: 11px;
+    position: relative;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 40px, rgba(0, 0, 0, 0.1) 0 5px 10px;
+    border: solid 2px white;
+}
+
+/*Bat DAU NAV BAR*/
+#leftSideLogo{
+    height: 50px;
+    width: 130px;
+    position: relative;
+    float: left;
+
+}
+
+.totalRoom{
+    width: 100%;
+    height: 100%;
+}
+.titleMeetingRoom{
+    font-weight: bold;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.totalRoomFilter{
+
+}
+.totalRoom .totalRoomFilter{
+    float: left;
+    margin-left: 70%;
+
+}
+
+/*.totalRoomFilter a{*/
+/*    text-space: 2px;*/
+/*}*/
+
+
+.header {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 10px 30px;
+    background: #0c1154;
+    color: #fff;
+}
+.u-name {
+    font-size: 20px;
+    padding-left: 17px;
+}
+.u-name b {
+    color: #127b8e;
+}
+.header i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.header i:hover {
+    color: #127b8e;
+}
+.user-p {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.user-p img {
+    width: 100px;
+    border-radius: 50%;
+}
+.user-p h4 {
+    color: #ccc;
+    padding: 5px 0;
+
+}
+
+/*bắt đầu side bar*/
+.side-bar {
+    width: 300px;
+    background: #111734;
+    min-height: 100vh;
+    transition: 500ms width;
+}
+.body {
+    display: flex;
+}
+.section-1 {
+    width: 100%;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-1 h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.section-1 p {
+    color: #127b8e;
+    font-size: 20px;
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+.side-bar ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.side-bar ul li {
+    font-size: 16px;
+    padding: 15px 0px;
+    padding-left: 20px;
+    transition: 500ms background;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+    background: #127b8e;
+}
+.side-bar ul li a {
+    text-decoration: none;
+    color: #eee;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.side-bar ul li a i {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}
+#navbtn {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 20px;
+    transition: 500ms color;
+}
+#checkbox {
+    display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+    width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p{
+    visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span{
+    display: none;
+}

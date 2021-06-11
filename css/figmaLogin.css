@@ -1,0 +1,147 @@
+*{
+    background: #E5E5E5;
+}
+
+.logo{
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+.sideImgBar{
+    position: absolute;
+    width: 475px;
+    height: 284px;
+    left: 745px;
+    top: 354px;
+}
+
+.rectangle12{
+    position: absolute;
+    width: 503px;
+    height: 400px;
+    left: 217px;
+    top: 278px;
+
+    background: #FFFFFF;
+    /* Beauty/border */
+
+    border: 1px solid #EDF2F9;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.titleFigma{
+    position: absolute;
+    width: 108px;
+    height: 24.71px;
+    left: 262px;
+    top: 310.95px;
+background-color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* Beauty/black text */
+
+    color: #2A2A2A;
+}
+
+.titledesc{
+    position: absolute;
+    width: 291px;
+    height: 14.65px;
+    left: 262px;
+    top: 345.73px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* Beauty/blue light */
+background-color: white;
+    color: #626F95;
+
+}
+
+.tk{
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 273px;
+    top: 409px;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    /* Beauty/black text */
+
+    color: #2A2A2A;
+
+}
+.emailLogin{
+    position: absolute;
+    width: 416px;
+    height: 35px;
+    left: 261px;
+    top: 435px;
+
+    /* Beauty/border */
+
+    border: 1px solid #EDF2F9;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.mk{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    left: 276px;
+    top: 495px;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    /* Beauty/black text */
+
+    color: #2A2A2A;
+}
+.passwordLogin{
+    position: absolute;
+    width: 416px;
+    height: 42px;
+    left: 261px;
+    top: 521px;
+
+    /* Beauty/border */
+
+
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.loginBtn{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 557px;
+    top: 612px;
+border: none;
+    background: #F5802A;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+
+

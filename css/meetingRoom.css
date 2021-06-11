@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -19,22 +21,29 @@
     float: left;
     /*left: 400px;*/
 }
+
+/*@media #userZoneDashboard  {*/
+/*    */
+/*}*/
 #userZoneDashboard{
-    margin-left: 65%;
+    position: fixed;
+    margin-left: 80%;
+    min-width: 950px;
 }
 #userZoneDashboard img:hover{
     opacity: 0.8;
 }
 
 #userZoneDashboard img{
+    float: left;
     display: inline-block;
     margin-left: 7px;
     /*padding-bottom: 50px;*/
     top: 11px;
     position: relative;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 34px;
+    height: 34px;
     opacity: 1;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0 5px 40px, rgba(0, 0, 0, 0.1) 0 5px 10px;
@@ -43,11 +52,19 @@
 
 /*Bat DAU NAV BAR*/
 #leftSideLogo{
+    width: 113px;
     height: 50px;
-    width: 130px;
-    position: relative;
-    float: left;
+    left: 0px;
+    top: 0px;
+    position: absolute;
 
+
+}
+
+.side{
+    background-color: red;
+    top: -20px
+    /*height: 500px;*/
 }
 
 .totalRoom{
@@ -79,8 +96,10 @@
     /*justify-content: space-between;*/
     align-items: center;
     padding: 10px 30px;
-    background: #0c1154;
+    background: #253D7F;
     color: #fff;
+    height: 50px;
+    /*min-width: 900px;*/
 }
 .u-name {
     font-size: 20px;
@@ -111,11 +130,15 @@
     padding: 5px 0;
 
 }
+.titleOption{
+    font-size: 10px;
+}
 
 /*bắt đầu side bar*/
 .side-bar {
-    width: 300px;
-    background: #111734;
+    width: 196px;
+
+    background: #011528;
     min-height: 100vh;
     transition: 500ms width;
 }
@@ -124,7 +147,7 @@
 }
 .section-1 {
     width: 100%;
-    background: url("../img/bg.jpg");
+    /*background: url("../img/bg.jpg");*/
     background-size: cover;
     background-position: center;
     display: flex;
@@ -170,11 +193,12 @@
     padding-right: 10px;
     font-size: 23px;
 }
-#navbtn {
+ #navbtn {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 120px;
     font-size: 20px;
     transition: 500ms color;
+     margin-top: 10%;
 }
 #checkbox {
     display: none;
@@ -187,4 +211,8 @@
 }
 #checkbox:checked ~ .body .side-bar a span{
     display: none;
+}
+
+.optionI{
+    font-size: 15px;
 }

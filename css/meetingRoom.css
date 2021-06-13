@@ -62,8 +62,9 @@
 }
 
 .side{
-    background-color: red;
-    top: -20px
+    background-color: #011528;
+    margin-top: 0;
+    /*top: -20px*/
     /*height: 500px;*/
 }
 
@@ -99,7 +100,7 @@
     background: #253D7F;
     color: #fff;
     height: 50px;
-    /*min-width: 900px;*/
+    /*min-width: 110%;*/
 }
 .u-name {
     font-size: 20px;
@@ -131,14 +132,14 @@
 
 }
 .titleOption{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 /*bắt đầu side bar*/
 .side-bar {
     width: 196px;
 
-    background: #011528;
+    background: #233143;
     min-height: 100vh;
     transition: 500ms width;
 }
@@ -167,12 +168,15 @@
     border-radius: 5px;
 }
 .side-bar ul {
-    margin-top: 20px;
+
     list-style: none;
 }
 .side-bar ul li {
-    font-size: 16px;
+
+    font-size: 12px;
+    /*dãn cách thẻ bar*/
     padding: 15px 0px;
+
     padding-left: 20px;
     transition: 500ms background;
     white-space: nowrap;

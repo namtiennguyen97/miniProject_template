@@ -1,0 +1,24 @@
+.meetingCard{
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 40px, rgba(0, 0, 0, 0.1) 0 5px 10px;
+    width: 390px;
+    height: 390px;
+    background-color: #233143;
+}
+
+.meetingCard img{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    height: 250px;
+}
+
+.card-title{
+    color: white;
+}
+
+.meetingEachCard{
+    /*width: 390px;*/
+    /*height: 389px;*/
+}
+
+

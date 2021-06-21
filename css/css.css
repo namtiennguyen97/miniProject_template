@@ -1,0 +1,115 @@
+body{
+    background-color: #333;
+    margin: 10%;
+    margin-left: 30%;
+
+}
+
+.progress{
+
+    /*size vòng tròn tổng ở đây*/
+    width: 30px;
+    height: 30px;
+
+
+    /*line-height: 2px;*/
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    /*đọ thon borderowr đây*/
+    border: 3px solid #f2f5f5;
+    /*end*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    /*độ thon thanh progress ở đây*/
+    border-width: 3px;
+    /*end*/
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+
+/*bắt đầu chạy bên phải*/
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+
+    transform-origin:  right;
+    transform: rotate(0deg);
+    /*animation:  1.8s linear forwards;*/
+}
+
+/*chạy thanh bên trái*/
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    transform-origin:  left;
+    transform: rotate(0deg);
+}
+.progress .progress-right{
+    right: 0;
+}
+
+
+.progress .progress-value{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    position: relative;
+}
+.progress.blue .progress-bar{
+    border-color: #F5802A;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+/*@keyframes loading-1{*/
+/*    0%{*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    100%{*/
+
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*}*/
+/*@keyframes loading-2{*/
+/*    0%{*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    100%{*/
+/*        transform: rotate(90deg);*/
+/*    }*/
+/*}*/

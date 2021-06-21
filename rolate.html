@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pie-wrapper {
+            display:inline-block;
+            position:relative;
+
+
+            /*o day thu nho vong tron*/
+            width:40px;
+            height:40px;
+
+            margin:10px;border:10px
+             solid #ddd;
+            border-radius:50%}
+        .pie-wrapper .pie {
+            /*thanh quay dãn hay nhỏ*/
+            clip:rect(10px,260px,80px,20px);
+            height:40px;
+            position:absolute;
+            width:40px;
+            margin:-10px 0 0 -10px}
+
+        .pie-wrapper .pie .half-circle {
+            /*độ dày của border*/
+            border:10px solid #3498db;
+            clip:rect(0,180px,200px,10px);
+            /*thu nho*/
+            height:40px;position:absolute;
+            width:40px;
+            border-radius:50%}
+
+        .pie-wrapper .label{position:absolute;
+            margin-bottom: 2%;display:block;
+            /*vị trí font */
+            width:20px;
+            height:10px;
+            color:#7f8c8d;cursor:default;font-size:20px;line-height:3em;text-align:center;border-radius:50%}
+        .pie-wrapper .label em {padding-bottom:20px;color:#bdc3c7;font-size:.45em;vertical-align:super;font-style:normal}
+        /*.pie-wrapper .shadow {width:100%;height:100%;border:20px solid #bdc3c7;border-radius: 50%}*/
+
+
+
+
+        .pie-wrapper.progress-half .pie .right-side {display: none}
+        .pie-wrapper.progress-half .pie .half-circle {border-style:solid;}
+
+
+        .pie-wrapper.progress-half .pie .left-side,.pie-wrapper.progress-full .pie .left-side {-webkit-transform: rotate(165deg);-moz-transform: rotate(165deg);transform: rotate(165deg)}
+        .pie-wrapper.progress-full .pie .left-side{-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg)}
+        .pie-wrapper.progress-full .pie{clip:inherit}
+        .pie-wrapper.progress-full .pie .right-side {display:block}
+        /*.pie-wrapper.progress-full .pie .right-side{-webkit-transform: rotate(180deg);-moz-transform: rotate(300deg);transform: rotate(300deg)}*/
+        div,div:before,div:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box}
+        html,body {background: #ecf0f1;  color: #444;font-family: Tahoma, Geneva, sans-serif;font-size: 16px}
+
+    </style>
+</head>
+<body>
+<div class="pie-wrapper progress-half">
+<!--    <span class="label">5</span>-->
+    <div class="pie">
+        <div class="left-side half-circle"></div>
+        <div class="right-side half-circle"></div>
+    </div>
+</div>
+</body>
+</html>

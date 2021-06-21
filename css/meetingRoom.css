@@ -26,8 +26,8 @@
 /*    */
 /*}*/
 #userZoneDashboard{
-    position: absolute;
-    float: right;
+    position: fixed;
+    float: left;
 margin-left: 75%;
     width: 100%;
     margin-right: 5%;

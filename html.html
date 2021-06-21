@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+<!--thanh blue-->
+                <div class="progress blue">
+<!--                    bên trái-->
+                    <span class="progress-left">
+                        <span class="progress-bar" id="leftBar"></span>
+                    </span>
+<!--                    bên phải-->
+                    <span class="progress-right">
+                        <span class="progress-bar" id="rightBar"></span>
+                    </span>
+                    <div class="progress-value">9</div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <button style="float: left; right: 60%" id="makeRotate">FILL TIME</button>
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalShow" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script>
+    let a = 40;
+    let b =0;
+
+    $('#makeRotate').click(function () {
+        if (a < 180){
+            a+=10;
+            $('#rightBar').css({'transform': 'rotate('+a+'deg)'});
+        }
+        if (a === 180){
+            b+=10;
+            $('#leftBar').css({'transform': 'rotate('+b+'deg)'});
+        }
+
+    });
+
+
+
+</script>
+</body>
+</html>

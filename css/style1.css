@@ -1,0 +1,251 @@
+
+
+li{
+  float: left;
+  padding-right: 30px;
+  list-style:none ;
+  
+}
+li:hover{
+  float: left;
+  padding-right: 30px;
+  border-radius: 15px 15px 15px 15px;
+}
+/* div hình ảnh */
+.card{
+  position: absolute;
+  width: 390px;
+  height: 250px;
+  left: 207px;
+  top: 154px;
+  
+  /*background: url(architecht-offices-istanbul-27.jpg);*/
+  border-radius: 15px 15px 0px 0px;
+}
+.classli{
+  position: absolute;
+  width: 343px;
+  height: 38px;
+  left: 1079px;
+  top: 71px;
+
+}
+/*
+.sum{
+  float: left;
+}
+
+.text-right{
+  float:right;
+} */
+.left{
+width: 50%;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 140%;
+color: #000000;
+
+}
+.bodymenu{
+  /* padding-top: 80px; */
+  width: 100%;
+  margin-top: 25px;
+  padding: -11px;
+}
+.menu{
+  padding-top: 20px;
+  width: 100%;
+
+}
+
+/* .Card1{
+  float: left;
+
+}
+.Card2{
+ float: left; */
+ /*
+  padding-right: 10px ;
+  width: 111.09px;
+height: 33.58px; */
+
+
+
+
+    .circle {
+      border: red;
+      background-color: #FFFFFF;
+      height: 40px;
+      -moz-border-radius:75px;
+      -webkit-border-radius: 75px;
+      display: flex;
+      justify-content: center;
+      width: 40px;
+  
+  }
+.g1{
+  background: #233143;
+}
+.circle-1 {
+  
+  background-color:blue;
+  height: 30px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+  margin: auto;
+  width: 30px;
+
+}
+.ll1{
+  color:cornsilk;
+}
+
+/* .pie-wrapper {display:inline-block;position:relative;display:inline-block;width:35px;height:35px;margin:10px;border:10px  solid #ddd;border-radius:50%}
+.pie-wrapper .pie {clip:rect(0,35px,35px,100px);height:35px;position:absolute;width:35px;margin:-10px 0 0 -10px}
+.pie-wrapper .pie .half-circle {border:10px solid #3498db;clip:rect(0,100px,35px,0);height:35px;position:absolute;width:35px;border-radius:50%}
+.pie-wrapper .label{position:absolute;top:5%;left:5%;display:block;width:180px;height:180px;color:#7f8c8d;cursor:default;font-size:3em;line-height:3em;text-align:center;border-radius:50%}
+.pie-wrapper .label em {padding-bottom:20px;color:#bdc3c7;font-size:.45em;vertical-align:super;font-style:normal}
+.pie-wrapper .shadow {width:100%;height:100%;border:20px solid #bdc3c7;border-radius: 50%}
+.pie-wrapper.progress-half .pie .right-side {display: none}
+.pie-wrapper.progress-half .pie .half-circle {border-style:solid;border-image:-webkit-linear-graident(#ff0000, #ffff00)}
+.pie-wrapper.progress-half .pie .left-side,.pie-wrapper.progress-full .pie .left-side {-webkit-transform: rotate(165deg);-moz-transform: rotate(165deg);transform: rotate(165deg)}
+.pie-wrapper.progress-full .pie .left-side{-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg)}
+.pie-wrapper.progress-full .pie{clip:inherit}
+.pie-wrapper.progress-full .pie .right-side {display:block}
+.pie-wrapper.progress-full .pie .right-side{-webkit-transform: rotate(300deg);-moz-transform: rotate(300deg);transform: rotate(300deg)}
+div,div:before,div:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box}
+html,body {background: #ecf0f1;  color: #444;font-family: Tahoma, Geneva, sans-serif;font-size: 16px}
+ */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.right{
+  width: 50%;
+  text-align: right;
+  margin-right: -16%;
+}
+.container-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-detail{
+  /* width: 30%;
+  height: 390px; */
+  width: 390px;
+height: 390px;
+  border: 1px solid #00FFFF;
+  position: relative;
+  border-radius: 15px;
+  background: #233143;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.card-detail-image{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid yellow; */
+  border-radius: 15px 15px 0px 0px;
+}
+.card-detail-image img{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid yellow; */
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-detail-clock{
+  position: absolute;
+  width: 100%;
+  top: 255px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid green;
+  height: 50px
+}
+
+.card-detail-div-name{
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background: #233143;
+  color: #FFFFFF;
+}
+
+.card-detail-div-name-title{
+  width: 50%;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+}
+
+.card-detail-div-name-button{
+  width: 50%;
+  text-align: right;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+}
+
+.card-detail-div-title{
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background: #233143;
+  color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.card-detail-div-title-name{
+  width: 50%;
+  font-family: Open Sans;
+font-style: normal;
+}
+
+.card-detail-div-title-number{
+  width: 50%;
+  text-align: right;
+  font-family: Open Sans;
+font-style: normal;
+}
+.card-detail-div-name-button button{
+  color: #FFFFFF;
+  background-color: chocolate;
+  border-radius: 15px;
+}
+.l1:hover{
+  background: #F2994A;
+  border-radius: 8px;
+  width: 160%;
+  text-align: center;
+}
+.l2:hover{
+  background: #F2994A;
+  border-radius: 8px;
+  width: 140%;
+  text-align: center;
+}
+.l3:hover{
+  background: #F2994A;
+  border-radius: 8px;
+  width: 160%;
+  text-align: center;
+}
